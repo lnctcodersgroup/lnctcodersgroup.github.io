@@ -19,7 +19,7 @@
     "User Message: $message.\n" .
     "User Phone: $phone.\n";
 
-  $mailTo = "gantavya22march@gmail.com";
+  $mailTo = "gantavya2001@gmail.com";
   $headers = "From: $email_from \r\n";
 
   mail($mailTo, $email_subject, $email_body, $headers);
